@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital@1&family=Jost:wght@900&family=Libre+Baskerville:wght@700&family=Philosopher:wght@700&family=Poppins:ital,wght@1,900&family=Yatra+One&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url('login.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notpad {
+    font-size: 80px;
+    font-family: 'Yatra One', system-ui;
+    font-weight: bold;
+    font-size: 70px;
+    color: #f1ddb6;
+    position: relative;
+    z-index: 1;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(14, 14, 14, 0.342), rgba(28, 16, 1, 0.551));
+}
+#title{
+    position: relative;
+    z-index: 1;
+}
+
+input[type="text"] {
+    margin-top: 5%;
+    border-radius: 20px;
+    width: 500px;
+    border: 5px solid rgb(28, 16, 1);
+    padding: 10px; 
+    font-size: 16px;
+    background-color: #f1ddb6; 
+}
+
+::placeholder {
+    color: rgb(41, 15, 3); 
+    opacity: 1;
+    font-family: 'Yatra One', system-ui;
+
+}
+
+.txt{
+    margin-left: 229px;
+}
+
+#message {
+    width: 70%;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    border: 5px solid rgb(28, 16, 1);
+    font-size: 16px;
+    background-color: #f1ddb6; 
+}
+
+
+
+
+
+.sub{
+    position: relative;
+    z-index: 1;
+    border-radius: 30px;
+    border: 5px solid #f1ddb6;
+    font-size: 16px;
+    background-color: rgb(28, 16, 1); 
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    color: #f1ddb6;
+    font-family: 'Yatra One', system-ui;
+}
+
+.sub:hover{
+    background-color: #f1ddb6; 
+    color: rgb(28, 16, 1);
+}
